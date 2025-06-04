@@ -2,89 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Mohiuddin Roni | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mohiuddin Roni - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 20px;
+      margin: 0;
       background: #f4f4f4;
       color: #333;
     }
-    h1, h2 {
-      color: #2c3e50;
+    header {
+      background: #007acc;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    h2 {
+      color: #007acc;
     }
     .project {
       background: #fff;
       padding: 15px;
-      margin: 20px 0;
-      border-left: 5px solid #3498db;
-    }
-    pre {
-      background: #eee;
-      padding: 10px;
-      overflow-x: auto;
+      margin-bottom: 20px;
+      border-left: 5px solid #007acc;
     }
     a {
-      color: #3498db;
+      color: #007acc;
       text-decoration: none;
     }
-    .contact {
-      margin-top: 40px;
-      padding-top: 20px;
-      border-top: 1px solid #ccc;
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
 
+<header>
   <h1>Mohiuddin Roni</h1>
-  <h2>JavaScript Developer & Web Designer</h2>
+  <p>JavaScript Developer & Web Designer</p>
+</header>
 
+<main>
   <section>
     <h2>About Me</h2>
-    <p>I am an enthusiastic web developer who loves learning new things.</p>
+    <p>I am an enthusiastic web developer who loves building projects and learning new technologies.</p>
   </section>
 
   <section>
     <h2>My Projects</h2>
 
     <div class="project">
-      <h3>Project 1 – A Simple Website</h3>
-      <p>HTML/CSS website with responsive layout. <br>
-      <a href="https://roni450.github.io/my-portfolio/" target="_blank">View Live</a></p>
+      <h3>Project 1: Personal Portfolio Website</h3>
+      <p>A simple HTML and CSS website showcasing my projects and skills.</p>
+      <a href="https://roni450.github.io/my-portfolio/" target="_blank">View Website</a>
     </div>
 
     <div class="project">
-      <h3>Project 2 – JavaScript Game</h3>
-      <p>A small game made with vanilla JavaScript.</p>
-    </div>
-
-    <div class="project">
-      <h3>Project 3 – Python Grade Calculator</h3>
-      <p>This is a simple Python program that calculates a grade based on a user's score.</p>
-      <pre><code>def calculate_grade(score):
-    if score >= 90:
-        return "A"
-    elif score >= 80:
-        return "B"
-    elif score >= 70:
-        return "C"
-    elif score >= 60:
-        return "D"
-    else:
-        return "F"
-
-score = int(input("Enter your score (0-100): "))
-grade = calculate_grade(score)
-print("Your grade is:", grade)</code></pre>
-      <p><a href="https://github.com/roni450/my-portfolio/blob/main/grade_calculator.py" target="_blank">View on GitHub</a></p>
+      <h3>Project 2: Python Grade Calculator</h3>
+      <p>A Python script that calculates grades based on user input score.</p>
+      <a href="https://github.com/roni450/my-portfolio/blob/main/grade_calculator.py" target="_blank">View on GitHub</a>
     </div>
   </section>
 
-  <section class="contact">
+  <section>
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:mohiuddinroni@gmail.com">mohiuddinroni@gmail.com</a></p>
   </section>
+</main>
+
+<footer>
+  &copy; 2025 Mohiuddin Roni
+</footer>
 
 </body>
 </html>

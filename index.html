@@ -36,14 +36,26 @@
   <h2>About Me</h2>
   <p>I am an enthusiastic web developer who loves learning new things.</p>
 
-  <h2>My Projects</h2>
-  <ul>
-    <li>
-      <strong>Grade Calculator (Python)</strong> — A simple Python program that calculates grades based on score.<br />
-      <a href="https://github.com/roni450/my-portfolio/blob/main/projects/grade_calculator.py" target="_blank" rel="noopener noreferrer">View code on GitHub</a>
-    </li>
-    <!-- Add more projects here if you want -->
-  </ul>
+ <h2>Python Grade Calculator</h2>
+<p>This is a simple Python program that calculates a grade based on a user's score.</p>
+
+<pre><code>
+def calculate_grade(score):
+    if score >= 90:
+        return "A"
+    elif score >= 80:
+        return "B"
+    elif score >= 70:
+        return "C"
+    elif score >= 60:
+        return "D"
+    else:
+        return "F"
+
+score = int(input("Enter your score (0-100): "))
+grade = calculate_grade(score)
+print("Your grade is:", grade)
+</code></pre>
 
   <h2>Contact Me</h2>
   <p>Email: mohiuddinroni@gmail.com</p>
